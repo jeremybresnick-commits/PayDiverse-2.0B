@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_services_are_you_interested_in__c</fullName>
+    <label>What services are you interested in?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Merchant Processing</fullName>
+                <default>false</default>
+                <label>Merchant Processing</label>
+            </value>
+            <value>
+                <fullName>Cash Advance</fullName>
+                <default>false</default>
+                <label>Cash Advance</label>
+            </value>
+            <value>
+                <fullName>eCheck</fullName>
+                <default>false</default>
+                <label>eCheck</label>
+            </value>
+            <value>
+                <fullName>Chargeback Shield</fullName>
+                <default>false</default>
+                <label>Chargeback Shield</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

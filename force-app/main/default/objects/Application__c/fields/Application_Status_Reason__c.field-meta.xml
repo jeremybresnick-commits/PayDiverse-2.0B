@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Status_Reason__c</fullName>
+    <label>Application Status Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved Elsewhere</fullName>
+                <default>false</default>
+                <label>Approved Elsewhere</label>
+            </value>
+            <value>
+                <fullName>Bad Credit / Financials</fullName>
+                <default>false</default>
+                <label>Bad Credit / Financials</label>
+            </value>
+            <value>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+                <label>Bankruptcy</label>
+            </value>
+            <value>
+                <fullName>CB Issues</fullName>
+                <default>false</default>
+                <label>CB Issues</label>
+            </value>
+            <value>
+                <fullName>Citizenship / Incorporation Issue</fullName>
+                <default>false</default>
+                <label>Citizenship / Incorporation Issue</label>
+            </value>
+            <value>
+                <fullName>Customer Complaints</fullName>
+                <default>false</default>
+                <label>Customer Complaints</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>MATCH / TMF List</fullName>
+                <default>false</default>
+                <label>MATCH / TMF List</label>
+            </value>
+            <value>
+                <fullName>Not Ready to Proceed Now</fullName>
+                <default>false</default>
+                <label>Not Ready to Proceed Now</label>
+            </value>
+            <value>
+                <fullName>Processing History Required</fullName>
+                <default>false</default>
+                <label>Processing History Required</label>
+            </value>
+            <value>
+                <fullName>Prohibited Product</fullName>
+                <default>false</default>
+                <label>Prohibited Product</label>
+            </value>
+            <value>
+                <fullName>Suspected Fraudulent</fullName>
+                <default>false</default>
+                <label>Suspected Fraudulent</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Unwilling to make Website Changes</fullName>
+                <default>false</default>
+                <label>Unwilling to make Website Changes</label>
+            </value>
+            <value>
+                <fullName>Waste of Time</fullName>
+                <default>false</default>
+                <label>Waste of Time</label>
+            </value>
+            <value>
+                <fullName>Weak Lead</fullName>
+                <default>false</default>
+                <label>Weak Lead</label>
+            </value>
+            <value>
+                <fullName>Payment Cloud</fullName>
+                <default>false</default>
+                <label>Payment Cloud</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Having Trouble Placing</fullName>
+                <default>false</default>
+                <label>Having Trouble Placing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Approved Elsewhere</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Bad Credit / Financials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Bankruptcy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>CB Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Citizenship / Incorporation Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Customer Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>MATCH / TMF List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Not Ready to Proceed Now</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Processing History Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Prohibited Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Suspected Fraudulent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Terminated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Unwilling to make Website Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Waste of Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Weak Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Payment Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Having Trouble Placing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

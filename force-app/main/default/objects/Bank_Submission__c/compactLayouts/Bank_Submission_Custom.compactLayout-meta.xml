@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bank_Submission_Custom</fullName>
+    <fields>Name</fields>
+    <fields>Submission_Type__c</fields>
+    <fields>Submission_Status__c</fields>
+    <fields>ISO_MSP_Or_Broker__c</fields>
+    <fields>Lead__c</fields>
+    <fields>Assigned_To__c</fields>
+    <label>Bank Submission Custom</label>
+</CompactLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chargeback_Rate__c</fullName>
+    <description>Historical chargeback rate as a percentage.</description>
+    <inlineHelpText>Enter percent value, e.g., 0.75 for 0.75%.</inlineHelpText>
+    <label>Chargeback Rate (%)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

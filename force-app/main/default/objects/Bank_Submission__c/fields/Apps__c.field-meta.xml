@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apps__c</fullName>
+    <label>Application Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Send Apps for Signature</fullName>
+                <default>false</default>
+                <label>Send Apps for Signature</label>
+            </value>
+            <value>
+                <fullName>Pending Signature</fullName>
+                <default>false</default>
+                <label>Pending Signature</label>
+            </value>
+            <value>
+                <fullName>Sent</fullName>
+                <default>false</default>
+                <label>Submitted - Awaiting Initial Feedback</label>
+            </value>
+            <value>
+                <fullName>Pending Merchant Response</fullName>
+                <default>false</default>
+                <label>Pending Merchant Response</label>
+            </value>
+            <value>
+                <fullName>Pending ISO Response</fullName>
+                <default>false</default>
+                <label>Pending ISO Response</label>
+            </value>
+            <value>
+                <fullName>Pending ISO &amp; Merchant Response</fullName>
+                <default>false</default>
+                <label>Pending ISO &amp; Merchant Response</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>HOLD</fullName>
+                <default>false</default>
+                <label>HOLD</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Placeholder</fullName>
+                <default>false</default>
+                <label>Placeholder</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Pending: ISO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending: ISO</label>
+            </value>
+            <value>
+                <fullName>Pending: Merchant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending: Merchant</label>
+            </value>
+            <value>
+                <fullName>Prevetting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prevetting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

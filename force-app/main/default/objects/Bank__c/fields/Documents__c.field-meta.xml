@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents__c</fullName>
+    <label>Documents</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Void Check or Bank Letter</fullName>
+                <default>false</default>
+                <label>Void Check or Bank Letter</label>
+            </value>
+            <value>
+                <fullName>3 Years of Tax Returns for Principal</fullName>
+                <default>false</default>
+                <label>3 Years of Tax Returns for Principal</label>
+            </value>
+            <value>
+                <fullName>Processing Statements for Past 3 Months (if available)</fullName>
+                <default>false</default>
+                <label>Processing Statements for Past 3 Months (if available)</label>
+            </value>
+            <value>
+                <fullName>Color Photo ID of Owner/Principal(s)</fullName>
+                <default>false</default>
+                <label>Color Photo ID of Owner/Principal(s)</label>
+            </value>
+            <value>
+                <fullName>Business Bank Statements for Past 3 Months (if your business is less than 3 months old, you can supply 3 months most recent personal bank statements)</fullName>
+                <default>false</default>
+                <label>Business Bank Statements for Past 3 Months (if your business is less than 3 months old, you can supply 3 months most recent personal bank statements)</label>
+            </value>
+            <value>
+                <fullName>Articles of Incorporation or Articles of Organization</fullName>
+                <default>false</default>
+                <label>Articles of Incorporation or Articles of Organization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

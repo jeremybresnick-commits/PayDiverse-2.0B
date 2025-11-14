@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <label>Industry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting and Bookkeeping</fullName>
+                <default>false</default>
+                <label>Accounting and Bookkeeping</label>
+            </value>
+            <value>
+                <fullName>Adoption Agencies</fullName>
+                <default>false</default>
+                <label>Adoption Agencies</label>
+            </value>
+            <value>
+                <fullName>Adult Content</fullName>
+                <default>false</default>
+                <label>Adult Content</label>
+            </value>
+            <value>
+                <fullName>Adult Products</fullName>
+                <default>false</default>
+                <label>Adult Products</label>
+            </value>
+            <value>
+                <fullName>Airlines</fullName>
+                <default>false</default>
+                <label>Airlines</label>
+            </value>
+            <value>
+                <fullName>Alcohol (Wholesale Online)</fullName>
+                <default>false</default>
+                <label>Alcohol (Wholesale Online)</label>
+            </value>
+            <value>
+                <fullName>Ammunition</fullName>
+                <default>false</default>
+                <label>Ammunition</label>
+            </value>
+            <value>
+                <fullName>Asset Protection</fullName>
+                <default>false</default>
+                <label>Asset Protection</label>
+            </value>
+            <value>
+                <fullName>Audiotext</fullName>
+                <default>false</default>
+                <label>Audiotext</label>
+            </value>
+            <value>
+                <fullName>Auto Detailing</fullName>
+                <default>false</default>
+                <label>Auto Detailing</label>
+            </value>
+            <value>
+                <fullName>Auto Rental Agencies</fullName>
+                <default>false</default>
+                <label>Auto Rental Agencies</label>
+            </value>
+            <value>
+                <fullName>Auto Roadside Assistance</fullName>
+                <default>false</default>
+                <label>Auto Roadside Assistance</label>
+            </value>
+            <value>
+                <fullName>Auto Transport</fullName>
+                <default>false</default>
+                <label>Auto Transport</label>
+            </value>
+            <value>
+                <fullName>Autoparts Online</fullName>
+                <default>false</default>
+                <label>Autoparts Online</label>
+            </value>
+            <value>
+                <fullName>Background Checks</fullName>
+                <default>false</default>
+                <label>Background Checks</label>
+            </value>
+            <value>
+                <fullName>Bail Bond Services</fullName>
+                <default>false</default>
+                <label>Bail Bond Services</label>
+            </value>
+            <value>
+                <fullName>Bankruptcy Lawyer / Firm</fullName>
+                <default>false</default>
+                <label>Bankruptcy Lawyer / Firm</label>
+            </value>
+            <value>
+                <fullName>Bartering Services</fullName>
+                <default>false</default>
+                <label>Bartering Services</label>
+            </value>
+            <value>
+                <fullName>Binary Options Trading</fullName>
+                <default>false</default>
+                <label>Binary Options Trading</label>
+            </value>
+            <value>
+                <fullName>Bitcoin</fullName>
+                <default>false</default>
+                <label>Bitcoin</label>
+            </value>
+            <value>
+                <fullName>Bitcoin ATM</fullName>
+                <default>false</default>
+                <label>Bitcoin ATM</label>
+            </value>
+            <value>
+                <fullName>Bus Lines</fullName>
+                <default>false</default>
+                <label>Bus Lines</label>
+            </value>
+            <value>
+                <fullName>Business Consulting</fullName>
+                <default>false</default>
+                <label>Business Consulting</label>
+            </value>
+            <value>
+                <fullName>Business Opportunity</fullName>
+                <default>false</default>
+                <label>Business Opportunity</label>
+            </value>
+            <value>
+                <fullName>Botanicals</fullName>
+                <default>false</default>
+                <label>Botanicals</label>
+            </value>
+            <value>
+                <fullName>Cannabis Seeds</fullName>
+                <default>false</default>
+                <label>Cannabis Seeds</label>
+            </value>
+            <value>
+                <fullName>Car / Limo Service</fullName>
+                <default>false</default>
+                <label>Car / Limo Service</label>
+            </value>
+            <value>
+                <fullName>Cash Gifting</fullName>
+                <default>false</default>
+                <label>Cash Gifting</label>
+            </value>
+            <value>
+                <fullName>Casino, Gambling, or Gaming Establishments</fullName>
+                <default>false</default>
+                <label>Casino, Gambling, or Gaming Establishments</label>
+            </value>
+            <value>
+                <fullName>CBD Products</fullName>
+                <default>false</default>
+                <label>CBD Products</label>
+            </value>
+            <value>
+                <fullName>Cell Phone Jamming Devices</fullName>
+                <default>false</default>
+                <label>Cell Phone Jamming Devices</label>
+            </value>
+            <value>
+                <fullName>Chain Letters</fullName>
+                <default>false</default>
+                <label>Chain Letters</label>
+            </value>
+            <value>
+                <fullName>Charities</fullName>
+                <default>false</default>
+                <label>Charities</label>
+            </value>
+            <value>
+                <fullName>Check Cashing Services</fullName>
+                <default>false</default>
+                <label>Check Cashing Services</label>
+            </value>
+            <value>
+                <fullName>Circumvention Devices (Black Boxes)</fullName>
+                <default>false</default>
+                <label>Circumvention Devices (Black Boxes)</label>
+            </value>
+            <value>
+                <fullName>Coins / Collectibles / Gold / Precious Metals</fullName>
+                <default>false</default>
+                <label>Coins / Collectibles / Gold / Precious Metals</label>
+            </value>
+            <value>
+                <fullName>Collection Agencies / Debt Collection</fullName>
+                <default>false</default>
+                <label>Collection Agencies / Debt Collection</label>
+            </value>
+            <value>
+                <fullName>Computer Bulletin Board</fullName>
+                <default>false</default>
+                <label>Computer Bulletin Board</label>
+            </value>
+            <value>
+                <fullName>Computer / Electronic Sales or Service (In Home)</fullName>
+                <default>false</default>
+                <label>Computer / Electronic Sales or Service (In Home)</label>
+            </value>
+            <value>
+                <fullName>Continuity Billing - Ingestible Products (No Trial Offers)</fullName>
+                <default>false</default>
+                <label>Continuity Billing - Ingestible Products (No Trial Offers)</label>
+            </value>
+            <value>
+                <fullName>Continuity Billing - Ingestible Products (With Trial Offer)</fullName>
+                <default>false</default>
+                <label>Continuity Billing - Ingestible Products (With Trial Offer)</label>
+            </value>
+            <value>
+                <fullName>Continuity Billing - Topical (Skin) Products (No Trial Offers)</fullName>
+                <default>false</default>
+                <label>Continuity Billing - Topical (Skin) Products (No Trial Offers)</label>
+            </value>
+            <value>
+                <fullName>Continuity Billing - Topical (Skin) Products (With Trial Offer)</fullName>
+                <default>false</default>
+                <label>Continuity Billing - Topical (Skin) Products (With Trial Offer)</label>
+            </value>
+            <value>
+                <fullName>Coupon / Gift Certificates</fullName>
+                <default>false</default>
+                <label>Coupon / Gift Certificates</label>
+            </value>
+            <value>
+                <fullName>Credit Card Protection Services</fullName>
+                <default>false</default>
+                <label>Credit Card Protection Services</label>
+            </value>
+            <value>
+                <fullName>Credit Cards</fullName>
+                <default>false</default>
+                <label>Credit Cards</label>
+            </value>
+            <value>
+                <fullName>Credit Education</fullName>
+                <default>false</default>
+                <label>Credit Education</label>
+            </value>
+            <value>
+                <fullName>Credit Repair</fullName>
+                <default>false</default>
+                <label>Credit Repair</label>
+            </value>
+            <value>
+                <fullName>Credit Report Monitoring</fullName>
+                <default>false</default>
+                <label>Credit Report Monitoring</label>
+            </value>
+            <value>
+                <fullName>CRM (Contact Relationship Manager)</fullName>
+                <default>false</default>
+                <label>CRM (Contact Relationship Manager)</label>
+            </value>
+            <value>
+                <fullName>Crowdfunding</fullName>
+                <default>false</default>
+                <label>Crowdfunding</label>
+            </value>
+            <value>
+                <fullName>Crypto / Virtual Currencies</fullName>
+                <default>false</default>
+                <label>Crypto / Virtual Currencies</label>
+            </value>
+            <value>
+                <fullName>Currency Exchange</fullName>
+                <default>false</default>
+                <label>Currency Exchange</label>
+            </value>
+            <value>
+                <fullName>Cyber Lockers</fullName>
+                <default>false</default>
+                <label>Cyber Lockers</label>
+            </value>
+            <value>
+                <fullName>Debt Collection</fullName>
+                <default>false</default>
+                <label>Debt Collection</label>
+            </value>
+            <value>
+                <fullName>Debt Consolidation</fullName>
+                <default>false</default>
+                <label>Debt Consolidation</label>
+            </value>
+            <value>
+                <fullName>Debt Counseling</fullName>
+                <default>false</default>
+                <label>Debt Counseling</label>
+            </value>
+            <value>
+                <fullName>Decryption Products</fullName>
+                <default>false</default>
+                <label>Decryption Products</label>
+            </value>
+            <value>
+                <fullName>Detective Services</fullName>
+                <default>false</default>
+                <label>Detective Services</label>
+            </value>
+            <value>
+                <fullName>Discount Legal</fullName>
+                <default>false</default>
+                <label>Discount Legal</label>
+            </value>
+            <value>
+                <fullName>Discount Shopping / Coupon Membership Club</fullName>
+                <default>false</default>
+                <label>Discount Shopping / Coupon Membership Club</label>
+            </value>
+            <value>
+                <fullName>Distressed Property Sales &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Distressed Property Sales &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Dominatrix</fullName>
+                <default>false</default>
+                <label>Dominatrix</label>
+            </value>
+            <value>
+                <fullName>Door to Door Sales</fullName>
+                <default>false</default>
+                <label>Door to Door Sales</label>
+            </value>
+            <value>
+                <fullName>Drug Paraphernalia</fullName>
+                <default>false</default>
+                <label>Drug Paraphernalia</label>
+            </value>
+            <value>
+                <fullName>E-Wallet Loans</fullName>
+                <default>false</default>
+                <label>E-Wallet Loans</label>
+            </value>
+            <value>
+                <fullName>Electronic Cigarettes / E-Cigs</fullName>
+                <default>false</default>
+                <label>Electronic Cigarettes / E-Cigs</label>
+            </value>
+            <value>
+                <fullName>Embassies / Consulates / Foreign Governments</fullName>
+                <default>false</default>
+                <label>Embassies / Consulates / Foreign Governments</label>
+            </value>
+            <value>
+                <fullName>Employment Agencies</fullName>
+                <default>false</default>
+                <label>Employment Agencies</label>
+            </value>
+            <value>
+                <fullName>Ephedra</fullName>
+                <default>false</default>
+                <label>Ephedra</label>
+            </value>
+            <value>
+                <fullName>Escort Advertising</fullName>
+                <default>false</default>
+                <label>Escort Advertising</label>
+            </value>
+            <value>
+                <fullName>Escort Service</fullName>
+                <default>false</default>
+                <label>Escort Service</label>
+            </value>
+            <value>
+                <fullName>ESTA / Immigration / Visa Passport Services</fullName>
+                <default>false</default>
+                <label>ESTA / Immigration / Visa Passport Services</label>
+            </value>
+            <value>
+                <fullName>Extended Warranty (Car / Auto)</fullName>
+                <default>false</default>
+                <label>Extended Warranty (Car / Auto)</label>
+            </value>
+            <value>
+                <fullName>Extended Warranty Programs (Non-Auto)</fullName>
+                <default>false</default>
+                <label>Extended Warranty Programs (Non-Auto)</label>
+            </value>
+            <value>
+                <fullName>Fantasy / Nude Art</fullName>
+                <default>false</default>
+                <label>Fantasy / Nude Art</label>
+            </value>
+            <value>
+                <fullName>Fantasy Sports</fullName>
+                <default>false</default>
+                <label>Fantasy Sports</label>
+            </value>
+            <value>
+                <fullName>File Sharing</fullName>
+                <default>false</default>
+                <label>File Sharing</label>
+            </value>
+            <value>
+                <fullName>Financial Consultants</fullName>
+                <default>false</default>
+                <label>Financial Consultants</label>
+            </value>
+            <value>
+                <fullName>Financial Institutions</fullName>
+                <default>false</default>
+                <label>Financial Institutions</label>
+            </value>
+            <value>
+                <fullName>Firearms</fullName>
+                <default>false</default>
+                <label>Firearms</label>
+            </value>
+            <value>
+                <fullName>Fireworks and Explosives</fullName>
+                <default>false</default>
+                <label>Fireworks and Explosives</label>
+            </value>
+            <value>
+                <fullName>Foreclosure Protection</fullName>
+                <default>false</default>
+                <label>Foreclosure Protection</label>
+            </value>
+            <value>
+                <fullName>Foreign Currency</fullName>
+                <default>false</default>
+                <label>Foreign Currency</label>
+            </value>
+            <value>
+                <fullName>Forex</fullName>
+                <default>false</default>
+                <label>Forex</label>
+            </value>
+            <value>
+                <fullName>Fortune Tellers</fullName>
+                <default>false</default>
+                <label>Fortune Tellers</label>
+            </value>
+            <value>
+                <fullName>Freight Forwarders</fullName>
+                <default>false</default>
+                <label>Freight Forwarders</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Houses</fullName>
+                <default>false</default>
+                <label>Fulfillment Houses</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Merchants</fullName>
+                <default>false</default>
+                <label>Fulfillment Merchants</label>
+            </value>
+            <value>
+                <fullName>Furniture</fullName>
+                <default>false</default>
+                <label>Furniture</label>
+            </value>
+            <value>
+                <fullName>Gentlemen&apos;s and Strip Clubs</fullName>
+                <default>false</default>
+                <label>Gentlemen&apos;s and Strip Clubs</label>
+            </value>
+            <value>
+                <fullName>Government Grants / Financial Aid</fullName>
+                <default>false</default>
+                <label>Government Grants / Financial Aid</label>
+            </value>
+            <value>
+                <fullName>Hair Restoration Services</fullName>
+                <default>false</default>
+                <label>Hair Restoration Services</label>
+            </value>
+            <value>
+                <fullName>HCG Weight Loss</fullName>
+                <default>false</default>
+                <label>HCG Weight Loss</label>
+            </value>
+            <value>
+                <fullName>Hemp Products</fullName>
+                <default>false</default>
+                <label>Hemp Products</label>
+            </value>
+            <value>
+                <fullName>Herbal Marijuana Alternatives</fullName>
+                <default>false</default>
+                <label>Herbal Marijuana Alternatives</label>
+            </value>
+            <value>
+                <fullName>High Ticket Coaching</fullName>
+                <default>false</default>
+                <label>High Ticket Coaching</label>
+            </value>
+            <value>
+                <fullName>Home Buying Assistance</fullName>
+                <default>false</default>
+                <label>Home Buying Assistance</label>
+            </value>
+            <value>
+                <fullName>Hoverboards</fullName>
+                <default>false</default>
+                <label>Hoverboards</label>
+            </value>
+            <value>
+                <fullName>Human Growth Hormones (HGH)</fullName>
+                <default>false</default>
+                <label>Human Growth Hormones (HGH)</label>
+            </value>
+            <value>
+                <fullName>ID Theft Protection</fullName>
+                <default>false</default>
+                <label>ID Theft Protection</label>
+            </value>
+            <value>
+                <fullName>Incorporation Service</fullName>
+                <default>false</default>
+                <label>Incorporation Service</label>
+            </value>
+            <value>
+                <fullName>Infomercial Merchants</fullName>
+                <default>false</default>
+                <label>Infomercial Merchants</label>
+            </value>
+            <value>
+                <fullName>Insurance Brokers</fullName>
+                <default>false</default>
+                <label>Insurance Brokers</label>
+            </value>
+            <value>
+                <fullName>Internet / Mail-Order Apparel / Accessories</fullName>
+                <default>false</default>
+                <label>Internet / Mail-Order Apparel / Accessories</label>
+            </value>
+            <value>
+                <fullName>Internet / Mail-Order Gambling</fullName>
+                <default>false</default>
+                <label>Internet / Mail-Order Gambling</label>
+            </value>
+            <value>
+                <fullName>Internet Pawn Shop</fullName>
+                <default>false</default>
+                <label>Internet Pawn Shop</label>
+            </value>
+            <value>
+                <fullName>Investment Advice</fullName>
+                <default>false</default>
+                <label>Investment Advice</label>
+            </value>
+            <value>
+                <fullName>IP Address Masking Service</fullName>
+                <default>false</default>
+                <label>IP Address Masking Service</label>
+            </value>
+            <value>
+                <fullName>IT Services / Tech Support</fullName>
+                <default>false</default>
+                <label>IT Services / Tech Support</label>
+            </value>
+            <value>
+                <fullName>Jail Breaker Equipment / Software</fullName>
+                <default>false</default>
+                <label>Jail Breaker Equipment / Software</label>
+            </value>
+            <value>
+                <fullName>Lead Generation</fullName>
+                <default>false</default>
+                <label>Lead Generation</label>
+            </value>
+            <value>
+                <fullName>Legal Services Online</fullName>
+                <default>false</default>
+                <label>Legal Services Online</label>
+            </value>
+            <value>
+                <fullName>Live Animals</fullName>
+                <default>false</default>
+                <label>Live Animals</label>
+            </value>
+            <value>
+                <fullName>Loan Broker</fullName>
+                <default>false</default>
+                <label>Loan Broker</label>
+            </value>
+            <value>
+                <fullName>Loan Modification</fullName>
+                <default>false</default>
+                <label>Loan Modification</label>
+            </value>
+            <value>
+                <fullName>Loan Repayment</fullName>
+                <default>false</default>
+                <label>Loan Repayment</label>
+            </value>
+            <value>
+                <fullName>Long Distance Services</fullName>
+                <default>false</default>
+                <label>Long Distance Services</label>
+            </value>
+            <value>
+                <fullName>Lottery</fullName>
+                <default>false</default>
+                <label>Lottery</label>
+            </value>
+            <value>
+                <fullName>Magazine Subscriptions</fullName>
+                <default>false</default>
+                <label>Magazine Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Magic Supplies</fullName>
+                <default>false</default>
+                <label>Magic Supplies</label>
+            </value>
+            <value>
+                <fullName>Male Enhancement (One-Time Billing)</fullName>
+                <default>false</default>
+                <label>Male Enhancement (One-Time Billing)</label>
+            </value>
+            <value>
+                <fullName>Male Enhancement (Trial / Continuity)</fullName>
+                <default>false</default>
+                <label>Male Enhancement (Trial / Continuity)</label>
+            </value>
+            <value>
+                <fullName>Manga Animation</fullName>
+                <default>false</default>
+                <label>Manga Animation</label>
+            </value>
+            <value>
+                <fullName>Massage (Home Based)</fullName>
+                <default>false</default>
+                <label>Massage (Home Based)</label>
+            </value>
+            <value>
+                <fullName>Massage Parlor</fullName>
+                <default>false</default>
+                <label>Massage Parlor</label>
+            </value>
+            <value>
+                <fullName>Match Making Service</fullName>
+                <default>false</default>
+                <label>Match Making Service</label>
+            </value>
+            <value>
+                <fullName>Medical Consultation</fullName>
+                <default>false</default>
+                <label>Medical Consultation</label>
+            </value>
+            <value>
+                <fullName>Medical Discount Plans / Insurance Substitutes</fullName>
+                <default>false</default>
+                <label>Medical Discount Plans / Insurance Substitutes</label>
+            </value>
+            <value>
+                <fullName>Medical or Dental Devices</fullName>
+                <default>false</default>
+                <label>Medical or Dental Devices</label>
+            </value>
+            <value>
+                <fullName>MLM (Multi Level Marketing)</fullName>
+                <default>false</default>
+                <label>MLM (Multi Level Marketing)</label>
+            </value>
+            <value>
+                <fullName>Mobile Apps</fullName>
+                <default>false</default>
+                <label>Mobile Apps</label>
+            </value>
+            <value>
+                <fullName>Mobile Repeaters</fullName>
+                <default>false</default>
+                <label>Mobile Repeaters</label>
+            </value>
+            <value>
+                <fullName>Modification Chips</fullName>
+                <default>false</default>
+                <label>Modification Chips</label>
+            </value>
+            <value>
+                <fullName>Money Orders</fullName>
+                <default>false</default>
+                <label>Money Orders</label>
+            </value>
+            <value>
+                <fullName>Money Service Business</fullName>
+                <default>false</default>
+                <label>Money Service Business</label>
+            </value>
+            <value>
+                <fullName>Mortgage Brokers</fullName>
+                <default>false</default>
+                <label>Mortgage Brokers</label>
+            </value>
+            <value>
+                <fullName>Non-Financial Institutions</fullName>
+                <default>false</default>
+                <label>Non-Financial Institutions</label>
+            </value>
+            <value>
+                <fullName>Nootropics</fullName>
+                <default>false</default>
+                <label>Nootropics</label>
+            </value>
+            <value>
+                <fullName>Nutraceutical / Health &amp; Beauty (Straight Sale)</fullName>
+                <default>false</default>
+                <label>Nutraceutical / Health &amp; Beauty (Straight Sale)</label>
+            </value>
+            <value>
+                <fullName>Nutraceutical / Ingestible (Straight Sale)</fullName>
+                <default>false</default>
+                <label>Nutraceutical / Ingestible (Straight Sale)</label>
+            </value>
+            <value>
+                <fullName>Online Auctions</fullName>
+                <default>false</default>
+                <label>Online Auctions</label>
+            </value>
+            <value>
+                <fullName>Online Computer Sales</fullName>
+                <default>false</default>
+                <label>Online Computer Sales</label>
+            </value>
+            <value>
+                <fullName>Online Dating / Matchmaking Service</fullName>
+                <default>false</default>
+                <label>Online Dating / Matchmaking Service</label>
+            </value>
+            <value>
+                <fullName>Online Incorporation Services</fullName>
+                <default>false</default>
+                <label>Online Incorporation Services</label>
+            </value>
+            <value>
+                <fullName>Online Legal Certificates</fullName>
+                <default>false</default>
+                <label>Online Legal Certificates</label>
+            </value>
+            <value>
+                <fullName>Online Marketplace</fullName>
+                <default>false</default>
+                <label>Online Marketplace</label>
+            </value>
+            <value>
+                <fullName>Online Pharmacy</fullName>
+                <default>false</default>
+                <label>Online Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Online Sneakers</fullName>
+                <default>false</default>
+                <label>Online Sneakers</label>
+            </value>
+            <value>
+                <fullName>Online Tobacco / Cigarettes</fullName>
+                <default>false</default>
+                <label>Online Tobacco / Cigarettes</label>
+            </value>
+            <value>
+                <fullName>Online Wheel Sales</fullName>
+                <default>false</default>
+                <label>Online Wheel Sales</label>
+            </value>
+            <value>
+                <fullName>P2P Payments</fullName>
+                <default>false</default>
+                <label>P2P Payments</label>
+            </value>
+            <value>
+                <fullName>Pari-Mutuel Betting</fullName>
+                <default>false</default>
+                <label>Pari-Mutuel Betting</label>
+            </value>
+            <value>
+                <fullName>Passenger Railways</fullName>
+                <default>false</default>
+                <label>Passenger Railways</label>
+            </value>
+            <value>
+                <fullName>Payday / Installment Loans</fullName>
+                <default>false</default>
+                <label>Payday / Installment Loans</label>
+            </value>
+            <value>
+                <fullName>Payment Facilitators</fullName>
+                <default>false</default>
+                <label>Payment Facilitators</label>
+            </value>
+            <value>
+                <fullName>Penny Auctions</fullName>
+                <default>false</default>
+                <label>Penny Auctions</label>
+            </value>
+            <value>
+                <fullName>Peptides</fullName>
+                <default>false</default>
+                <label>Peptides</label>
+            </value>
+            <value>
+                <fullName>Pre-Paid Legal Advice</fullName>
+                <default>false</default>
+                <label>Pre-Paid Legal Advice</label>
+            </value>
+            <value>
+                <fullName>Pre-Paid Phone Cards</fullName>
+                <default>false</default>
+                <label>Pre-Paid Phone Cards</label>
+            </value>
+            <value>
+                <fullName>Procurement Service</fullName>
+                <default>false</default>
+                <label>Procurement Service</label>
+            </value>
+            <value>
+                <fullName>Product Authentication Services</fullName>
+                <default>false</default>
+                <label>Product Authentication Services</label>
+            </value>
+            <value>
+                <fullName>Promotional Material</fullName>
+                <default>false</default>
+                <label>Promotional Material</label>
+            </value>
+            <value>
+                <fullName>Psychic (MOTO or Online)</fullName>
+                <default>false</default>
+                <label>Psychic (MOTO or Online)</label>
+            </value>
+            <value>
+                <fullName>Pyrotechnic Devices</fullName>
+                <default>false</default>
+                <label>Pyrotechnic Devices</label>
+            </value>
+            <value>
+                <fullName>Radioactive Material</fullName>
+                <default>false</default>
+                <label>Radioactive Material</label>
+            </value>
+            <value>
+                <fullName>Real Estate Advertising</fullName>
+                <default>false</default>
+                <label>Real Estate Advertising</label>
+            </value>
+            <value>
+                <fullName>Replicas</fullName>
+                <default>false</default>
+                <label>Replicas</label>
+            </value>
+            <value>
+                <fullName>Reputation Management</fullName>
+                <default>false</default>
+                <label>Reputation Management</label>
+            </value>
+            <value>
+                <fullName>Research Chemicals</fullName>
+                <default>false</default>
+                <label>Research Chemicals</label>
+            </value>
+            <value>
+                <fullName>Scholarship Programs</fullName>
+                <default>false</default>
+                <label>Scholarship Programs</label>
+            </value>
+            <value>
+                <fullName>Search Engine Optimiztion (SEO)</fullName>
+                <default>false</default>
+                <label>Search Engine Optimiztion (SEO)</label>
+            </value>
+            <value>
+                <fullName>Self Help Books</fullName>
+                <default>false</default>
+                <label>Self Help Books</label>
+            </value>
+            <value>
+                <fullName>Seminars (MOTO or Online)</fullName>
+                <default>false</default>
+                <label>Seminars (MOTO or Online)</label>
+            </value>
+            <value>
+                <fullName>Shipping Services</fullName>
+                <default>false</default>
+                <label>Shipping Services</label>
+            </value>
+            <value>
+                <fullName>Skincare / Nutra (Straight Sale)</fullName>
+                <default>false</default>
+                <label>Skincare / Nutra (Straight Sale)</label>
+            </value>
+            <value>
+                <fullName>Software Downloads (Music / Movies)</fullName>
+                <default>false</default>
+                <label>Software Downloads (Music / Movies)</label>
+            </value>
+            <value>
+                <fullName>Sports Cards</fullName>
+                <default>false</default>
+                <label>Sports Cards</label>
+            </value>
+            <value>
+                <fullName>Sports Forecasting</fullName>
+                <default>false</default>
+                <label>Sports Forecasting</label>
+            </value>
+            <value>
+                <fullName>Spread Betting</fullName>
+                <default>false</default>
+                <label>Spread Betting</label>
+            </value>
+            <value>
+                <fullName>Stock Trading Tips</fullName>
+                <default>false</default>
+                <label>Stock Trading Tips</label>
+            </value>
+            <value>
+                <fullName>Stop Smoking Aids</fullName>
+                <default>false</default>
+                <label>Stop Smoking Aids</label>
+            </value>
+            <value>
+                <fullName>Stripper Service</fullName>
+                <default>false</default>
+                <label>Stripper Service</label>
+            </value>
+            <value>
+                <fullName>Student Loan Consolidation Document Preparation</fullName>
+                <default>false</default>
+                <label>Student Loan Consolidation Document Preparation</label>
+            </value>
+            <value>
+                <fullName>Swingers Club / Dogging</fullName>
+                <default>false</default>
+                <label>Swingers Club / Dogging</label>
+            </value>
+            <value>
+                <fullName>Talent Agencies</fullName>
+                <default>false</default>
+                <label>Talent Agencies</label>
+            </value>
+            <value>
+                <fullName>Tax Relief or Fine Reduction Assistance</fullName>
+                <default>false</default>
+                <label>Tax Relief or Fine Reduction Assistance</label>
+            </value>
+            <value>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+                <label>Tech Support</label>
+            </value>
+            <value>
+                <fullName>Teeth Whitening Products (Continuity / Subscription)</fullName>
+                <default>false</default>
+                <label>Teeth Whitening Products (Continuity / Subscription)</label>
+            </value>
+            <value>
+                <fullName>Teeth Whitening Products (One-Time Purchase)</fullName>
+                <default>false</default>
+                <label>Teeth Whitening Products (One-Time Purchase)</label>
+            </value>
+            <value>
+                <fullName>Telemedicine</fullName>
+                <default>false</default>
+                <label>Telemedicine</label>
+            </value>
+            <value>
+                <fullName>Telephony Services (VOIP)</fullName>
+                <default>false</default>
+                <label>Telephony Services (VOIP)</label>
+            </value>
+            <value>
+                <fullName>Tenant Screening Services</fullName>
+                <default>false</default>
+                <label>Tenant Screening Services</label>
+            </value>
+            <value>
+                <fullName>Third Party Timeshare Agents</fullName>
+                <default>false</default>
+                <label>Third Party Timeshare Agents</label>
+            </value>
+            <value>
+                <fullName>Ticket Brokers (Fulfillment Over 90 Days)</fullName>
+                <default>false</default>
+                <label>Ticket Brokers (Fulfillment Over 90 Days)</label>
+            </value>
+            <value>
+                <fullName>Ticket Sales</fullName>
+                <default>false</default>
+                <label>Ticket Sales</label>
+            </value>
+            <value>
+                <fullName>Travel (Including Airfare)</fullName>
+                <default>false</default>
+                <label>Travel (Including Airfare)</label>
+            </value>
+            <value>
+                <fullName>Travel Agency</fullName>
+                <default>false</default>
+                <label>Travel Agency</label>
+            </value>
+            <value>
+                <fullName>Travel Certificates</fullName>
+                <default>false</default>
+                <label>Travel Certificates</label>
+            </value>
+            <value>
+                <fullName>Travel Hotel Bookings</fullName>
+                <default>false</default>
+                <label>Travel Hotel Bookings</label>
+            </value>
+            <value>
+                <fullName>Travel Member Club</fullName>
+                <default>false</default>
+                <label>Travel Member Club</label>
+            </value>
+            <value>
+                <fullName>Travel MLM</fullName>
+                <default>false</default>
+                <label>Travel MLM</label>
+            </value>
+            <value>
+                <fullName>Travel Packages (Without Airfare)</fullName>
+                <default>false</default>
+                <label>Travel Packages (Without Airfare)</label>
+            </value>
+            <value>
+                <fullName>Travel: Cruise Lines</fullName>
+                <default>false</default>
+                <label>Travel: Cruise Lines</label>
+            </value>
+            <value>
+                <fullName>Travel: Timeshare Advertising</fullName>
+                <default>false</default>
+                <label>Travel: Timeshare Advertising</label>
+            </value>
+            <value>
+                <fullName>Travel: Timeshare Contract Negotiators</fullName>
+                <default>false</default>
+                <label>Travel: Timeshare Contract Negotiators</label>
+            </value>
+            <value>
+                <fullName>Traveler&apos;s Checks</fullName>
+                <default>false</default>
+                <label>Traveler&apos;s Checks</label>
+            </value>
+            <value>
+                <fullName>Venture Capital</fullName>
+                <default>false</default>
+                <label>Venture Capital</label>
+            </value>
+            <value>
+                <fullName>VIAGRA Online</fullName>
+                <default>false</default>
+                <label>VIAGRA Online</label>
+            </value>
+            <value>
+                <fullName>Video On Demand</fullName>
+                <default>false</default>
+                <label>Video On Demand</label>
+            </value>
+            <value>
+                <fullName>VPN Services</fullName>
+                <default>false</default>
+                <label>VPN Services</label>
+            </value>
+            <value>
+                <fullName>Water Purifiers</fullName>
+                <default>false</default>
+                <label>Water Purifiers</label>
+            </value>
+            <value>
+                <fullName>Weapons</fullName>
+                <default>false</default>
+                <label>Weapons</label>
+            </value>
+            <value>
+                <fullName>Web Design</fullName>
+                <default>false</default>
+                <label>Web Design</label>
+            </value>
+            <value>
+                <fullName>Web Hosting</fullName>
+                <default>false</default>
+                <label>Web Hosting</label>
+            </value>
+            <value>
+                <fullName>Websites / Applications With Cash Prizes</fullName>
+                <default>false</default>
+                <label>Websites / Applications With Cash Prizes</label>
+            </value>
+            <value>
+                <fullName>Weight Loss Centers (Non-Physician Based)</fullName>
+                <default>false</default>
+                <label>Weight Loss Centers (Non-Physician Based)</label>
+            </value>
+            <value>
+                <fullName>Wheel Clampers</fullName>
+                <default>false</default>
+                <label>Wheel Clampers</label>
+            </value>
+            <value>
+                <fullName>Wholesale Mobile Phone Sales</fullName>
+                <default>false</default>
+                <label>Wholesale Mobile Phone Sales</label>
+            </value>
+            <value>
+                <fullName>Wire Transfer / Quasi Cash</fullName>
+                <default>false</default>
+                <label>Wire Transfer / Quasi Cash</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

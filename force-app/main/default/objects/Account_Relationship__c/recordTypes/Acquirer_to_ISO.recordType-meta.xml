@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquirer_to_ISO</fullName>
+    <active>true</active>
+    <label>Acquirer to ISO</label>
+    <picklistValues>
+        <picklist>Backend_Processing_Platform__c</picklist>
+        <values>
+            <fullName>Fiserve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSYS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funding_Delay__c</picklist>
+        <values>
+            <fullName>24 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Services_Offered__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High-Risk Merchant Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low-Risk Merchant Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Currency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Facilitator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinless Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-Wallet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permanently Closed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier_Type__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canadian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Shore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CBHero_setup_complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this once CBHero has all information they need from the merchant and CBHero setup has been completed.</description>
+    <inlineHelpText>Check this once CBHero has all information they need from the merchant and CBHero setup has been completed.</inlineHelpText>
+    <label>CBHero setup complete?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Backward_Status</fullName>
+    <active>true</active>
+    <description>If status rolls back, require Status Reason.</description>
+    <errorConditionFormula>AND(
+      NOT(ISBLANK(PRIORVALUE(Status__c))),
+      CASE(PRIORVALUE(Status__c),
+        &quot;New&quot;, 1,
+        &quot;Documents Pending&quot;, 2,
+        &quot;Documents Received&quot;, 3,
+        &quot;Ready to Submit&quot;, 4,
+        &quot;Submitted to ISO&quot;, 5,
+        &quot;Under Review&quot;, 6,
+        &quot;Approved&quot;, 7,
+        &quot;Declined&quot;, 7,
+      0)
+      &gt;
+      CASE(Status__c,
+        &quot;New&quot;, 1,
+        &quot;Documents Pending&quot;, 2,
+        &quot;Documents Received&quot;, 3,
+        &quot;Ready to Submit&quot;, 4,
+        &quot;Submitted to ISO&quot;, 5,
+        &quot;Under Review&quot;, 6,
+        &quot;Approved&quot;, 7,
+        &quot;Declined&quot;, 7,
+      0)
+    )</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Moving status backward is not allowed.</errorMessage>
+</ValidationRule>

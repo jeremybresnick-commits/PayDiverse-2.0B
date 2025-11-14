@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Fields_After_Submit</fullName>
+    <active>true</active>
+    <description>Locks key fields after application is submitted to prevent accidental changes</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Application_Status__c, &quot;Submitted&quot;),
+OR(
+    ISCHANGED(Business_Name__c),
+    ISCHANGED(Business_Model__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Cannot modify Business Name or Business Model after submission. Contact your administrator if changes are needed.</errorMessage>
+</ValidationRule>

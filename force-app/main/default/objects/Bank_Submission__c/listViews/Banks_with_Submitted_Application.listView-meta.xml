@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Banks_with_Submitted_Application</fullName>
+    <columns>NAME</columns>
+    <columns>Lead__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Apps__c</columns>
+    <columns>Prevets__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Apps__c</field>
+        <operation>equals</operation>
+        <value>Sent</value>
+    </filters>
+    <label>Banks with Submitted Application</label>
+</ListView>

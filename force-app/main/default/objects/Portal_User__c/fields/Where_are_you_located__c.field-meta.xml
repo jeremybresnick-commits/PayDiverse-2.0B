@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Where_are_you_located__c</fullName>
+    <label>Where are you located?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>United States -Pacific</fullName>
+                <default>false</default>
+                <label>United States -Pacific</label>
+            </value>
+            <value>
+                <fullName>United States-Mountain</fullName>
+                <default>false</default>
+                <label>United States-Mountain</label>
+            </value>
+            <value>
+                <fullName>United States-Central</fullName>
+                <default>false</default>
+                <label>United States-Central</label>
+            </value>
+            <value>
+                <fullName>United States-Eastern</fullName>
+                <default>false</default>
+                <label>United States-Eastern</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

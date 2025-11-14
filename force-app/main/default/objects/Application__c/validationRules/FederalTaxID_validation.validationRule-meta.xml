@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FederalTaxID_validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+   LEN(Federal_Tax_ID__c ) &gt; 11,
+   LEN(Federal_Tax_ID__c) &lt;9
+  )</errorConditionFormula>
+    <errorMessage>Please provide a valid Federal Tax ID/Business Registration #. Accepted Input Formats are: XXX-XX-XXXX OR XXXXXXXXX OR XX-XXXXXXX</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Fields_After_Submission</fullName>
+    <active>true</active>
+    <description>After Submitted/Under Review/Approved/Declined, core profile fields cannot be edited.</description>
+    <errorConditionFormula>AND(
+      OR(
+        ISPICKVAL(Status__c, &quot;Submitted to ISO&quot;),
+        ISPICKVAL(Status__c, &quot;Under Review&quot;),
+        ISPICKVAL(Status__c, &quot;Approved&quot;),
+        ISPICKVAL(Status__c, &quot;Declined&quot;)
+      ),
+      OR(
+        ISCHANGED(Business_Name__c),
+        ISCHANGED(Actual_Monthly_Volume__c),
+        ISCHANGED(Average_Transaction__c),
+        ISCHANGED(Product_Type__c),
+        ISCHANGED(Primary_Contact_Name__c),
+        ISCHANGED(Primary_Contact_Phone__c),
+        ISCHANGED(Primary_Contact_Email__c)
+      )
+    )</errorConditionFormula>
+    <errorMessage>Record is already submitted/in review. Core fields are locked.</errorMessage>
+</ValidationRule>

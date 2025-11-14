@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Offered__c</fullName>
+    <label>Services Offered</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACH</fullName>
+                <default>false</default>
+                <label>ACH</label>
+            </value>
+            <value>
+                <fullName>e-Check</fullName>
+                <default>false</default>
+                <label>e-Check</label>
+            </value>
+            <value>
+                <fullName>e-Wallet</fullName>
+                <default>false</default>
+                <label>e-Wallet</label>
+            </value>
+            <value>
+                <fullName>High-Risk Merchant Account</fullName>
+                <default>false</default>
+                <label>High-Risk Merchant Account</label>
+            </value>
+            <value>
+                <fullName>Low-Risk Merchant Account</fullName>
+                <default>false</default>
+                <label>Low-Risk Merchant Account</label>
+            </value>
+            <value>
+                <fullName>Multi Currency</fullName>
+                <default>false</default>
+                <label>Multi Currency</label>
+            </value>
+            <value>
+                <fullName>Payment Facilitator</fullName>
+                <default>false</default>
+                <label>Payment Facilitator</label>
+            </value>
+            <value>
+                <fullName>Pinless Debit</fullName>
+                <default>false</default>
+                <label>Pinless Debit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

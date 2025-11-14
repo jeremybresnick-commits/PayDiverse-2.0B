@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Decline_Reason__c</fullName>
+    <description>Captures the single primary reason an application was declined by the bank/ISO or withdrawn by the merchant. Used for high-level reporting and trend analysis.</description>
+    <inlineHelpText>Select one category that best explains why the application was declined or withdrawn.
+If multiple reasons are present, choose the most decisive factor.</inlineHelpText>
+    <label>Primary Decline Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prohibited / Acquirer Policy</fullName>
+                <default>false</default>
+                <label>Prohibited / Acquirer Policy</label>
+            </value>
+            <value>
+                <fullName>Billing Model / Offer Structure</fullName>
+                <default>false</default>
+                <label>Billing Model / Offer Structure</label>
+            </value>
+            <value>
+                <fullName>Excessive Chargebacks</fullName>
+                <default>false</default>
+                <label>Excessive Chargebacks</label>
+            </value>
+            <value>
+                <fullName>Insufficient Processing History</fullName>
+                <default>false</default>
+                <label>Insufficient Processing History</label>
+            </value>
+            <value>
+                <fullName>Fraud Concerns</fullName>
+                <default>false</default>
+                <label>Fraud Concerns</label>
+            </value>
+            <value>
+                <fullName>Credit / Financial Issues</fullName>
+                <default>false</default>
+                <label>Credit / Financial Issues</label>
+            </value>
+            <value>
+                <fullName>MATCH / TMF List</fullName>
+                <default>false</default>
+                <label>MATCH / TMF List</label>
+            </value>
+            <value>
+                <fullName>Documentation / KYC Deficiencies</fullName>
+                <default>false</default>
+                <label>Documentation / KYC Deficiencies</label>
+            </value>
+            <value>
+                <fullName>Ownership / Eligibility</fullName>
+                <default>false</default>
+                <label>Ownership / Eligibility</label>
+            </value>
+            <value>
+                <fullName>Pricing / Terms Objection</fullName>
+                <default>false</default>
+                <label>Pricing / Terms Objection</label>
+            </value>
+            <value>
+                <fullName>Merchant Withdrawal</fullName>
+                <default>false</default>
+                <label>Merchant Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Duplicate Submission</fullName>
+                <default>false</default>
+                <label>Duplicate Submission</label>
+            </value>
+            <value>
+                <fullName>Multiple URLs per Legal Entity</fullName>
+                <default>false</default>
+                <label>Multiple URLs per Legal Entity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

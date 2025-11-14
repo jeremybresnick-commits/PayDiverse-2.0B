@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Market_Region__c</fullName>
+    <description>Geographic market/region used for routing and analytics.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Example: “US-East”, “EU-West”, “LATAM”.</inlineHelpText>
+    <label>Customer Market Region</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

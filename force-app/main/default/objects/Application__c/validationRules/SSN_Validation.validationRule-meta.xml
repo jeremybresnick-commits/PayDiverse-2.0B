@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SSN_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( 
+   AND(
+       NOT(ISBLANK(X1st_Owner_Officer_Last_Name__c)),
+       OR(
+          LEN(Social_Security_Number__c) &gt; 11,
+          LEN(Social_Security_Number__c) &lt;9 
+         )
+       ),
+   AND(
+       NOT(ISBLANK(X2nd_Owner_Last_Name__c)),
+       OR(
+          LEN(Social_Security_Number2__c) &gt; 11,
+          LEN(Social_Security_Number2__c) &lt;9 
+         )
+       )
+)</errorConditionFormula>
+    <errorMessage>Please provide a valid SSN number. Accepted Input Formats are:
+
+XXX-XX-XXXX OR XXXXXXXXX</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Sequence_Status__c</fullName>
+    <description>CAN-SPAM compliance status for email sequences</description>
+    <label>Email Sequence Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Email_Sequence_Status_GVS</valueSetName>
+    </valueSet>
+</CustomField>

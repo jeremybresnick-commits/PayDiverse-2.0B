@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <label>Document Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bank Statements</fullName>
+                <default>false</default>
+                <label>Bank Statements</label>
+            </value>
+            <value>
+                <fullName>Business License</fullName>
+                <default>false</default>
+                <label>Business License</label>
+            </value>
+            <value>
+                <fullName>Articles of Incorporation</fullName>
+                <default>false</default>
+                <label>Articles of Incorporation</label>
+            </value>
+            <value>
+                <fullName>EIN Letter</fullName>
+                <default>false</default>
+                <label>EIN Letter</label>
+            </value>
+            <value>
+                <fullName>Processing Statements</fullName>
+                <default>false</default>
+                <label>Processing Statements</label>
+            </value>
+            <value>
+                <fullName>Voided Check</fullName>
+                <default>false</default>
+                <label>Voided Check</label>
+            </value>
+            <value>
+                <fullName>Driver License</fullName>
+                <default>false</default>
+                <label>Driver License</label>
+            </value>
+            <value>
+                <fullName>Utility Bill</fullName>
+                <default>false</default>
+                <label>Utility Bill</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

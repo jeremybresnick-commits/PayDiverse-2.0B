@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Phone_Number_Short__c</fullName>
+    <description>Created by John Chalovich. Required by Mercury SMS to allow inbound SMS text to be mapped to correct record.</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(	SUBSTITUTE(	SUBSTITUTE(	SUBSTITUTE(	
+SUBSTITUTE(	 Business_Phone__c ,	&apos;+&apos;,	&apos;&apos;),	&apos;)&apos;,	&apos;&apos;),	&apos;(&apos;,	&apos;&apos;),	&apos;-&apos;,	&apos;&apos;),	&apos;	&apos;,	&apos;&apos;)</formula>
+    <label>Business Phone Number Short</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

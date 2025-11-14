@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Source__c</fullName>
+    <description>Detailed acquisition source tied to marketing.</description>
+    <inlineHelpText>Tracks granular lead source detail for reporting.</inlineHelpText>
+    <label>Marketing Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lead_Source_Detail_GVS</valueSetName>
+    </valueSet>
+</CustomField>

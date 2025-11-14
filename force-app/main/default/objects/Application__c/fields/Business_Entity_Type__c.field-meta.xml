@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Entity_Type__c</fullName>
+    <label>Business Entity Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sole Proprietor</fullName>
+                <default>false</default>
+                <label>Sole Proprietor</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>LLC</fullName>
+                <default>false</default>
+                <label>LLC</label>
+            </value>
+            <value>
+                <fullName>Corporation</fullName>
+                <default>false</default>
+                <label>Corporation</label>
+            </value>
+            <value>
+                <fullName>Non-Profit</fullName>
+                <default>false</default>
+                <label>Non-Profit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

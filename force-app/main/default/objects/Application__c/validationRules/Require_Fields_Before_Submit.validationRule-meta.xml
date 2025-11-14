@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Fields_Before_Submit</fullName>
+    <active>true</active>
+    <description>Prevents marking application as Ready to Submit without completing all required fields</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Application_Status__c, &quot;Ready to Submit&quot;),
+OR(
+    ISBLANK(Business_Name__c),
+    ISNULL(Primary_Contact__c),
+    ISBLANK(TEXT(Business_Model__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Cannot mark as Ready to Submit. Please complete: Business Name, Primary Contact, and Business Model.</errorMessage>
+</ValidationRule>

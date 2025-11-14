@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Order_Enforcement</fullName>
+    <active>true</active>
+    <description>Enforces proper status progression - cannot skip stages in the workflow</description>
+    <errorConditionFormula>AND(
+  /* Status is changing */
+  ISCHANGED(Application_Status__c),
+  /* Invalid transitions */
+  OR(
+    /* Cannot jump from New directly to Submitted */
+    AND(
+      ISPICKVAL(PRIORVALUE(Application_Status__c), &quot;New&quot;),
+      OR(
+        ISPICKVAL(Application_Status__c, &quot;Submitted_to_ISO&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Under_Review&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Declined&quot;)
+      )
+    ),
+    /* Cannot jump from Documents Pending to Under Review */
+    AND(
+      ISPICKVAL(PRIORVALUE(Application_Status__c), &quot;Documents_Pending&quot;),
+      OR(
+        ISPICKVAL(Application_Status__c, &quot;Under_Review&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Declined&quot;)
+      )
+    ),
+    /* Cannot jump from Documents Received to Under Review */
+    AND(
+      ISPICKVAL(PRIORVALUE(Application_Status__c), &quot;Documents_Received&quot;),
+      OR(
+        ISPICKVAL(Application_Status__c, &quot;Under_Review&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Declined&quot;)
+      )
+    ),
+    /* Cannot jump from Ready to Submit to Approved/Declined */
+    AND(
+      ISPICKVAL(PRIORVALUE(Application_Status__c), &quot;Ready_to_Submit&quot;),
+      OR(
+        ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+        ISPICKVAL(Application_Status__c, &quot;Declined&quot;)
+      )
+    )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Application_Status__c</errorDisplayField>
+    <errorMessage>Invalid status transition. Please follow the proper workflow: New â†’ Documents Pending â†’ Documents Received â†’ Ready to Submit â†’ Submitted to ISO â†’ Under Review â†’ Approved/Declined. Use Status Change Reason to document exceptions.</errorMessage>
+</ValidationRule>

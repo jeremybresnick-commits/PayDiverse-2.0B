@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specific_Sub_Reasons__c</fullName>
+    <description>Provides detailed, granular reasons tied to the selected Primary Decline Reason.
+Used to identify patterns (e.g., “Trial/Negative Option,” “Unsatisfactory Credit”) and drive operational improvements.</description>
+    <inlineHelpText>Select every sub-reason mentioned in underwriting or merchant notes that supports the Primary Decline Reason.
+Only sub-reasons relevant to the chosen Primary category will display.</inlineHelpText>
+    <label>Specific Decline Sub-Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prohibited Products</fullName>
+                <default>false</default>
+                <label>Prohibited Products</label>
+            </value>
+            <value>
+                <fullName>Acquirer Policy / Appetite</fullName>
+                <default>false</default>
+                <label>Acquirer Policy / Appetite</label>
+            </value>
+            <value>
+                <fullName>Traffic / Marketing Risk</fullName>
+                <default>false</default>
+                <label>Traffic / Marketing Risk</label>
+            </value>
+            <value>
+                <fullName>Trial / Negative Option</fullName>
+                <default>false</default>
+                <label>Trial / Negative Option</label>
+            </value>
+            <value>
+                <fullName>Subscription (Non-Trial)</fullName>
+                <default>false</default>
+                <label>Subscription (Non-Trial)</label>
+            </value>
+            <value>
+                <fullName>Long Fulfillment Window</fullName>
+                <default>false</default>
+                <label>Long Fulfillment Window</label>
+            </value>
+            <value>
+                <fullName>High Refund/Cancel Patterns</fullName>
+                <default>false</default>
+                <label>High Refund/Cancel Patterns</label>
+            </value>
+            <value>
+                <fullName>CB Ratio Above Threshold</fullName>
+                <default>false</default>
+                <label>CB Ratio Above Threshold</label>
+            </value>
+            <value>
+                <fullName>TC40 / VE Velocity</fullName>
+                <default>false</default>
+                <label>TC40 / VE Velocity</label>
+            </value>
+            <value>
+                <fullName>Pre-Arb / RDR Pattern</fullName>
+                <default>false</default>
+                <label>Pre-Arb / RDR Pattern</label>
+            </value>
+            <value>
+                <fullName>No Statements Provided</fullName>
+                <default>false</default>
+                <label>No Statements Provided</label>
+            </value>
+            <value>
+                <fullName>&lt;3 Months History</fullName>
+                <default>false</default>
+                <label>&lt;3 Months History</label>
+            </value>
+            <value>
+                <fullName>Not ‘Clean’ History</fullName>
+                <default>false</default>
+                <label>Not ‘Clean’ History</label>
+            </value>
+            <value>
+                <fullName>Document Tampering / Mismatch</fullName>
+                <default>false</default>
+                <label>Document Tampering / Mismatch</label>
+            </value>
+            <value>
+                <fullName>Synthetic / Identity Risk</fullName>
+                <default>false</default>
+                <label>Synthetic / Identity Risk</label>
+            </value>
+            <value>
+                <fullName>Transaction Laundering Signals</fullName>
+                <default>false</default>
+                <label>Transaction Laundering Signals</label>
+            </value>
+            <value>
+                <fullName>Card-Testing / Abuse Patterns</fullName>
+                <default>false</default>
+                <label>Card-Testing / Abuse Patterns</label>
+            </value>
+            <value>
+                <fullName>Unsatisfactory Credit</fullName>
+                <default>false</default>
+                <label>Unsatisfactory Credit</label>
+            </value>
+            <value>
+                <fullName>Weak Financials / Low Liquidity</fullName>
+                <default>false</default>
+                <label>Weak Financials / Low Liquidity</label>
+            </value>
+            <value>
+                <fullName>Negative Banking Patterns</fullName>
+                <default>false</default>
+                <label>Negative Banking Patterns</label>
+            </value>
+            <value>
+                <fullName>MATCH – Excessive Chargebacks</fullName>
+                <default>false</default>
+                <label>MATCH – Excessive Chargebacks</label>
+            </value>
+            <value>
+                <fullName>MATCH – Fraud</fullName>
+                <default>false</default>
+                <label>MATCH – Fraud</label>
+            </value>
+            <value>
+                <fullName>MATCH – Other / Unknown Code</fullName>
+                <default>false</default>
+                <label>MATCH – Other / Unknown Code</label>
+            </value>
+            <value>
+                <fullName>ID Unreadable / Doesn’t Match Signer</fullName>
+                <default>false</default>
+                <label>ID Unreadable / Doesn’t Match Signer</label>
+            </value>
+            <value>
+                <fullName>Ownership Not Verified</fullName>
+                <default>false</default>
+                <label>Ownership Not Verified</label>
+            </value>
+            <value>
+                <fullName>Bank Statements Missing / Inadequate</fullName>
+                <default>false</default>
+                <label>Bank Statements Missing / Inadequate</label>
+            </value>
+            <value>
+                <fullName>Business Docs Missing</fullName>
+                <default>false</default>
+                <label>Business Docs Missing</label>
+            </value>
+            <value>
+                <fullName>Website/Domain Evidence Missing</fullName>
+                <default>false</default>
+                <label>Website/Domain Evidence Missing</label>
+            </value>
+            <value>
+                <fullName>No U.S. Entity</fullName>
+                <default>false</default>
+                <label>No U.S. Entity</label>
+            </value>
+            <value>
+                <fullName>No U.S. Bank Account</fullName>
+                <default>false</default>
+                <label>No U.S. Bank Account</label>
+            </value>
+            <value>
+                <fullName>No U.S. Owner with SSN</fullName>
+                <default>false</default>
+                <label>No U.S. Owner with SSN</label>
+            </value>
+            <value>
+                <fullName>Complex/Non-Qualifying Ownership</fullName>
+                <default>false</default>
+                <label>Complex/Non-Qualifying Ownership</label>
+            </value>
+            <value>
+                <fullName>Sanctions / Watchlist Hit (OFAC/PEP)</fullName>
+                <default>false</default>
+                <label>Sanctions / Watchlist Hit (OFAC/PEP)</label>
+            </value>
+            <value>
+                <fullName>Reserve Too High</fullName>
+                <default>false</default>
+                <label>Reserve Too High</label>
+            </value>
+            <value>
+                <fullName>Monthly Minimum Too High</fullName>
+                <default>false</default>
+                <label>Monthly Minimum Too High</label>
+            </value>
+            <value>
+                <fullName>Rates / Fees Unacceptable</fullName>
+                <default>false</default>
+                <label>Rates / Fees Unacceptable</label>
+            </value>
+            <value>
+                <fullName>Settlement Timing / Funding Delay</fullName>
+                <default>false</default>
+                <label>Settlement Timing / Funding Delay</label>
+            </value>
+            <value>
+                <fullName>Volume Caps / Terms</fullName>
+                <default>false</default>
+                <label>Volume Caps / Terms</label>
+            </value>
+            <value>
+                <fullName>Switched to Another Processor</fullName>
+                <default>false</default>
+                <label>Switched to Another Processor</label>
+            </value>
+            <value>
+                <fullName>Internal Deprioritization / Timing</fullName>
+                <default>false</default>
+                <label>Internal Deprioritization / Timing</label>
+            </value>
+            <value>
+                <fullName>Integration Complexity / Tech Constraints</fullName>
+                <default>false</default>
+                <label>Integration Complexity / Tech Constraints</label>
+            </value>
+            <value>
+                <fullName>Other Non-Pricing Reason</fullName>
+                <default>false</default>
+                <label>Other Non-Pricing Reason</label>
+            </value>
+            <value>
+                <fullName>Pre-Underwriting Ghost</fullName>
+                <default>false</default>
+                <label>Pre-Underwriting Ghost</label>
+            </value>
+            <value>
+                <fullName>During KYC Ghost</fullName>
+                <default>false</default>
+                <label>During KYC Ghost</label>
+            </value>
+            <value>
+                <fullName>Post-Terms Ghost</fullName>
+                <default>false</default>
+                <label>Post-Terms Ghost</label>
+            </value>
+            <value>
+                <fullName>Post-Approval Ghost</fullName>
+                <default>false</default>
+                <label>Post-Approval Ghost</label>
+            </value>
+            <value>
+                <fullName>Duplicate – Same URL (Other Agent/ISO)</fullName>
+                <default>false</default>
+                <label>Duplicate – Same URL (Other Agent/ISO)</label>
+            </value>
+            <value>
+                <fullName>Duplicate – Already Boarded Elsewhere</fullName>
+                <default>false</default>
+                <label>Duplicate – Already Boarded Elsewhere</label>
+            </value>
+            <value>
+                <fullName>Concurrent URL Limit Reached</fullName>
+                <default>false</default>
+                <label>Concurrent URL Limit Reached</label>
+            </value>
+            <value>
+                <fullName>Additional URL Deferred Pending History</fullName>
+                <default>false</default>
+                <label>Additional URL Deferred Pending History</label>
+            </value>
+            <value>
+                <fullName>Per-Signer Limit</fullName>
+                <default>false</default>
+                <label>Per-Signer Limit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

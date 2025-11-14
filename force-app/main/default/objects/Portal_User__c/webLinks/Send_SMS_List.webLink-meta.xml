@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_SMS_List</fullName>
+    <availability>online</availability>
+    <description>Custom button to use Mercury SMS to send messages to a list of Portal Users. Created by John Chalovich.</description>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send SMS</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>if({!GETRECORDIDS($ObjectType.Name)}.length	&gt;	
+0){console.log({!GETRECORDIDS($ObjectType.Name)});	var	popup	
+=	
+window.open(&quot;{!URLFOR(&apos;/apex/mercury__composemessage&apos;)}?id
+s=&quot;+
+{!GETRECORDIDS($ObjectType.Name)},	&quot;sms&quot;,	&quot;width=800,	
+height=300&quot;);
+}
+else{
+alert(&apos;Please	Select	Some	Records.&apos;);
+}</url>
+</WebLink>

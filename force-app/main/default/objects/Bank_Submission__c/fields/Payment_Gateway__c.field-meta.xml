@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Gateway__c</fullName>
+    <description>Payment Gateway that merchant has been signed up with.</description>
+    <inlineHelpText>Payment Gateway that merchant has been signed up with.</inlineHelpText>
+    <label>Payment Gateway</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Provided</fullName>
+                <default>false</default>
+                <label>Agent Provided</label>
+            </value>
+            <value>
+                <fullName>Authorize.net</fullName>
+                <default>false</default>
+                <label>Authorize.net</label>
+            </value>
+            <value>
+                <fullName>Bankcard Brokers Gateway</fullName>
+                <default>false</default>
+                <label>Bankcard Brokers Gateway</label>
+            </value>
+            <value>
+                <fullName>ISO Provided</fullName>
+                <default>false</default>
+                <label>ISO Provided</label>
+            </value>
+            <value>
+                <fullName>Maverick Gateway</fullName>
+                <default>false</default>
+                <label>Maverick Gateway</label>
+            </value>
+            <value>
+                <fullName>Merchant Provided</fullName>
+                <default>false</default>
+                <label>Merchant Provided</label>
+            </value>
+            <value>
+                <fullName>MiCamp&apos;s NMI</fullName>
+                <default>false</default>
+                <label>MiCamp&apos;s NMI</label>
+            </value>
+            <value>
+                <fullName>NMI</fullName>
+                <default>false</default>
+                <label>NMI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

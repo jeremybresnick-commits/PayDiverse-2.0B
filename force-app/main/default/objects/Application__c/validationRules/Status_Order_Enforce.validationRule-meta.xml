@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Order_Enforce</fullName>
+    <active>true</active>
+    <description>Enforces proper status progression order</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Application_Status__c),
+ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+NOT(ISPICKVAL(PRIORVALUE(Application_Status__c), &quot;Submitted&quot;))
+)</errorConditionFormula>
+    <errorMessage>Applications must be Submitted before they can be Approved.</errorMessage>
+</ValidationRule>

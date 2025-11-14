@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submission_Status__c</fullName>
+    <label>Submission Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Submission_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sent</fullName>
+                <default>false</default>
+                <label>Prevet Sent</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+                <label>Maybe</label>
+            </value>
+            <value>
+                <fullName>Yes but Processing History Required</fullName>
+                <default>false</default>
+                <label>Yes but Processing History Required</label>
+            </value>
+            <value>
+                <fullName>Yes - With Conditions</fullName>
+                <default>false</default>
+                <label>Yes - With Conditions</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>No; Duplicate</fullName>
+                <default>false</default>
+                <label>No; Duplicate</label>
+            </value>
+            <value>
+                <fullName>Prevet Form Required</fullName>
+                <default>false</default>
+                <label>Prevet Form Required</label>
+            </value>
+            <value>
+                <fullName>Need to Send Apps for Signature</fullName>
+                <default>false</default>
+                <label>Need to Send Apps for Signature</label>
+            </value>
+            <value>
+                <fullName>Pending Signature</fullName>
+                <default>false</default>
+                <label>Pending Signature</label>
+            </value>
+            <value>
+                <fullName>Ready to Submit App</fullName>
+                <default>false</default>
+                <label>Ready to Submit App</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Pending: Merchant</fullName>
+                <default>false</default>
+                <label>Pending: Merchant</label>
+            </value>
+            <value>
+                <fullName>Pending: ISO</fullName>
+                <default>false</default>
+                <label>Pending: ISO</label>
+            </value>
+            <value>
+                <fullName>Pending: Merchant &amp; ISO</fullName>
+                <default>false</default>
+                <label>Pending: Merchant &amp; ISO</label>
+            </value>
+            <value>
+                <fullName>Submitted to Acquirer for Final Approval</fullName>
+                <default>false</default>
+                <label>Submitted to Acquirer for Final Approval</label>
+            </value>
+            <value>
+                <fullName>Approved - Pending VAR</fullName>
+                <default>false</default>
+                <label>Approved - Pending VAR</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Placeholder</fullName>
+                <default>false</default>
+                <label>Placeholder</label>
+            </value>
+            <value>
+                <fullName>Avoid</fullName>
+                <default>false</default>
+                <label>Avoid</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Prevetting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prevetting</label>
+            </value>
+            <value>
+                <fullName>Yes but Hold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yes but Hold</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Yes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Maybe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Yes but Processing History Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Yes - With Conditions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>No; Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <valueName>Prevet Form Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PreVet</controllingFieldValue>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Avoid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Need to Send Apps for Signature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Pending Signature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Ready to Submit App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Pending: Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Pending: ISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Pending: Merchant &amp; ISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Submitted to Acquirer for Final Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Approved - Pending VAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Withdrawn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Terminated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Placeholder</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
