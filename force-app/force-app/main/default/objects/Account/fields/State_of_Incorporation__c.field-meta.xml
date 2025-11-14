@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_of_Incorporation__c</fullName>
+    <description>State of Incorporation - Where business is registered</description>
+    <externalId>false</externalId>
+    <label>State of Incorporation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US_States_GVS</fullName>
+                <default>true</default>
+                <label>US_States_GVS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

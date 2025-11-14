@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
+    <description>Message delivery status from RingCentral or other integration</description>
+    <externalId>false</externalId>
     <label>Status</label>
+    <picklist>
+        <picklistValues>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Bounced</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Suppressed</fullName>
+            <default>false</default>
+        </picklistValues>
+    </picklist>
     <required>false</required>
-    <trackTrending>false</trackTrending>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
     <type>Picklist</type>
-    <valueSet>
-        <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Success</fullName>
-                <default>false</default>
-                <label>Success</label>
-            </value>
-            <value>
-                <fullName>Error</fullName>
-                <default>false</default>
-                <label>Error</label>
-            </value>
-            <value>
-                <fullName>Warning</fullName>
-                <default>false</default>
-                <label>Warning</label>
-            </value>
-        </valueSetDefinition>
-    </valueSet>
 </CustomField>

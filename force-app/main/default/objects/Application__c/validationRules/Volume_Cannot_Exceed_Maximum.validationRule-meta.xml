@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c.Volume_Cannot_Exceed_Maximum</fullName>
+    <active>true</active>
+    <description>Ensure monthly volume does not exceed 500000</description>
+    <errorConditionFormula>Desired_Monthly_Volume__c > 500000</errorConditionFormula>
+    <errorDisplayField>Desired_Monthly_Volume__c</errorDisplayField>
+    <errorMessage>Monthly volume cannot exceed 500,000 transactions. Please contact sales for volume exceptions.</errorMessage>
+</ValidationRule>

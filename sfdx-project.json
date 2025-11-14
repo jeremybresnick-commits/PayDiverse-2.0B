@@ -1,12 +1,21 @@
 {
+  "name": "PayDiverse 2.0",
+  "description": "PayDiverse 2.0 BETA Implementation",
+  "version": "1.0.0",
+  "private": true,
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "PayDiverse",
+      "versionName": "BETA",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
-  "name": "PayDiverse-2.0B",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "64.0"
+  "sourceApiVersion": "60.0",
+  "plugins": {
+    "@salesforce/sfdx-scanner": {}
+  }
 }

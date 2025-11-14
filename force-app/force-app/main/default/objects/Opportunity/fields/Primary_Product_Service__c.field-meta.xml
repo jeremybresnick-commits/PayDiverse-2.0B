@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Product_Service__c</fullName>
+    <description>Primary Product/Service - What they sell/offer</description>
+    <externalId>false</externalId>
+    <label>Primary Product/Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Opted_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tracks if Contact has opted out of SMS (replied STOP or manual suppression)</description>
+    <externalId>false</externalId>
+    <label>SMS Opted Out</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

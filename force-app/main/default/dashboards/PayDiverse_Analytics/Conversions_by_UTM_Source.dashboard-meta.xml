@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard>
+  <backgroundEndColor>#FFFFFF</backgroundEndColor>
+  <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+  <backgroundStartColor>#FFFFFF</backgroundStartColor>
+  <dashboardType>SpecifiedUser</dashboardType>
+  <isGridLayout>false</isGridLayout>
+  <leftSection>
+    <columnSize>Medium</columnSize>
+    <components>
+      <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+      <componentType>Metric</componentType>
+      <displayUnits>Auto</displayUnits>
+      <report>PayDiverse_Analytics/Total_Apps_by_Source</report>
+      <showPicturesOnCharts>false</showPicturesOnCharts>
+      <showValues>true</showValues>
+      <sortBy>RowLabelAscending</sortBy>
+      <title>Total Apps</title>
+      <useReportChart>false</useReportChart>
+    </components>
+    <components>
+      <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+      <componentType>Metric</componentType>
+      <displayUnits>Auto</displayUnits>
+      <report>PayDiverse_Analytics/Won_Apps_by_Source</report>
+      <showPicturesOnCharts>false</showPicturesOnCharts>
+      <showValues>true</showValues>
+      <sortBy>RowLabelAscending</sortBy>
+      <title>Won Apps</title>
+      <useReportChart>false</useReportChart>
+    </components>
+  </leftSection>
+  <rightSection>
+    <columnSize>Medium</columnSize>
+    <components>
+      <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+      <componentType>Gauge</componentType>
+      <displayUnits>Auto</displayUnits>
+      <report>PayDiverse_Analytics/Total_Apps_by_Source</report>
+      <showPicturesOnCharts>false</showPicturesOnCharts>
+      <showValues>true</showValues>
+      <title>Conversion % (Won/Total)</title>
+      <useReportChart>false</useReportChart>
+    </components>
+  </rightSection>
+  <runningUser>jeremybresnick306@agentforce.com</runningUser>
+  <textColor>#000000</textColor>
+  <title>Conversions by UTM Source</title>
+  <titleColor>#000000</titleColor>
+  <titleSize>12</titleSize>
+</Dashboard>

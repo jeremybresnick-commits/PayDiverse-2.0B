@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Report>
+  <columns>
+    <field>Application__c$Name</field>
+  </columns>
+  <columns>
+    <field>Application__c$Acquisition_Source__c</field>
+  </columns>
+  <columns>
+    <field>Application__c$CreatedDate</field>
+  </columns>
+  <filter>
+    <criteriaItems>
+      <column>Application__c$CreatedDate</column>
+      <columnToColumn>false</columnToColumn>
+      <isUnlocked>true</isUnlocked>
+      <operator>equals</operator>
+      <value>THIS_YEAR</value>
+    </criteriaItems>
+  </filter>
+  <format>Summary</format>
+  <groupingsDown>
+    <dateGranularity>Day</dateGranularity>
+    <field>Application__c$Acquisition_Source__c</field>
+    <sortOrder>Asc</sortOrder>
+  </groupingsDown>
+  <name>Won by Acquisition Source</name>
+  <reportType>Application__c__c</reportType>
+  <scope>organization</scope>
+  <showDetails>true</showDetails>
+  <showGrandTotal>true</showGrandTotal>
+  <showSubTotals>true</showSubTotals>
+  <timeFrameFilter>
+    <dateColumn>Application__c$CreatedDate</dateColumn>
+    <interval>INTERVAL_CURRENT</interval>
+  </timeFrameFilter>
+</Report>

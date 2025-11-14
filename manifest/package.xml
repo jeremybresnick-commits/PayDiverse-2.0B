@@ -1,48 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Lead.Landing_Page__c</members>
+        <members>Lead.Referrer_URL__c</members>
+        <members>Lead.UTM_Source__c</members>
+        <members>Lead.IP_Address__c</members>
+        <members>Lead.Entry_Time__c</members>
+        <members>Lead.Time_On_Page__c</members>
+        <members>Contact.Last_Landing_Page__c</members>
+        <members>Contact.Last_Referrer_URL__c</members>
+        <members>Contact.Last_UTM_Source__c</members>
+        <members>Contact.Last_IP_Address__c</members>
+        <members>Contact.First_Visit_Time__c</members>
+        <members>Contact.Last_Time_On_Page__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Layout</name>
+        <members>Lead_Submission_Handler</members>
+        <members>Gate_Routing</members>
+        <members>Lead_to_Application_Idempotent</members>
+        <members>Application_to_Opportunity_Idempotent</members>
+        <members>Email_Notification_Automation</members>
+        <members>Post_Submission_Record_Lock</members>
+        <name>Flow</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <version>62.0</version>
+    <version>60.0</version>
 </Package>

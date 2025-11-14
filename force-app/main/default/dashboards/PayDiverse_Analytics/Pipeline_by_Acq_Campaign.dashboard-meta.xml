@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard>
+  <backgroundEndColor>#FFFFFF</backgroundEndColor>
+  <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+  <backgroundStartColor>#FFFFFF</backgroundStartColor>
+  <dashboardType>SpecifiedUser</dashboardType>
+  <isGridLayout>false</isGridLayout>
+  <leftSection>
+    <columnSize>Wide</columnSize>
+    <components>
+      <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+      <componentType>Bar</componentType>
+      <displayUnits>Auto</displayUnits>
+      <report>PayDiverse_Analytics/Pipeline_by_Acq_Campaign</report>
+      <showPicturesOnCharts>false</showPicturesOnCharts>
+      <showValues>true</showValues>
+      <sortBy>RowLabelAscending</sortBy>
+      <title>Pipeline by Campaign</title>
+      <useReportChart>true</useReportChart>
+    </components>
+  </leftSection>
+  <runningUser>jeremybresnick306@agentforce.com</runningUser>
+  <textColor>#000000</textColor>
+  <title>Pipeline by Acquisition Campaign</title>
+  <titleColor>#000000</titleColor>
+  <titleSize>12</titleSize>
+</Dashboard>

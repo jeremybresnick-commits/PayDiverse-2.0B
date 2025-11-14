@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Game_Type__c</fullName>
+    <description>Game Type - CONDITIONAL: Only if gaming industry</description>
+    <externalId>false</externalId>
+    <label>Game Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Casino</fullName>
+                <default>true</default>
+                <label>Casino</label>
+            </value>
+            <value>
+                <fullName>Sports Betting</fullName>
+                <default>false</default>
+                <label>Sports Betting</label>
+            </value>
+            <value>
+                <fullName>Fantasy Sports</fullName>
+                <default>false</default>
+                <label>Fantasy Sports</label>
+            </value>
+            <value>
+                <fullName>Skill Games</fullName>
+                <default>false</default>
+                <label>Skill Games</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

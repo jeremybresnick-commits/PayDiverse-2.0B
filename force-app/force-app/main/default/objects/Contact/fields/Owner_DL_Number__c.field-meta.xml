@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_DL_Number__c</fullName>
+    <description>Owner DL Number - Driver license for KYC</description>
+    <externalId>false</externalId>
+    <label>Owner DL Number</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <length>20</length>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c.Status_Required_Before_Submit</fullName>
+    <active>true</active>
+    <description>Ensure application status is set before submission</description>
+    <errorConditionFormula>AND(ISBLANK(Application_Status__c), RecordType.Name = "Merchant Application")</errorConditionFormula>
+    <errorDisplayField>Application_Status__c</errorDisplayField>
+    <errorMessage>Application status must be set before submission</errorMessage>
+</ValidationRule>

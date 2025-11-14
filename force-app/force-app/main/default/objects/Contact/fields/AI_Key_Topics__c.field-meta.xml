@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Key_Topics__c</fullName>
+    <description>AI Key Topics - Main discussion points</description>
+    <externalId>false</externalId>
+    <label>AI Key Topics</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <length>3000</length>
+</CustomField>

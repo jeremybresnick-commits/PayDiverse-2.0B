@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_IP_Address__c</fullName>
+    <label>Last IP Address</label>
+    <description>Receives Lead.IP_Address__c on conversion (always overwrite)</description>
+    <length>45</length>
+    <type>Text</type>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+</CustomField>

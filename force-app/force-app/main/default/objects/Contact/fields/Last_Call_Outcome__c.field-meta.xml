@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Call_Outcome__c</fullName>
+    <description>Last Call Outcome - Result of call</description>
+    <externalId>false</externalId>
+    <label>Last Call Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call_Outcome_GVS</fullName>
+                <default>true</default>
+                <label>Call_Outcome_GVS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

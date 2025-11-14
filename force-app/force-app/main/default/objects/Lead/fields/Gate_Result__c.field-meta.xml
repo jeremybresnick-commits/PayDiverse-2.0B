@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_Result__c</fullName>
+    <description>Gate Result - Automation-set qualification result</description>
+    <externalId>false</externalId>
+    <label>Gate Result</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualified</fullName>
+                <default>true</default>
+                <label>Qualified</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Manual Review</fullName>
+                <default>false</default>
+                <label>Manual Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2C_Percentage__c</fullName>
+    <description>B2C Percentage - % consumer customers</description>
+    <externalId>false</externalId>
+    <label>B2C Percentage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+    <precision>5</precision>
+    <scale>2</scale>
+</CustomField>
